@@ -16,3 +16,20 @@ pode ultrapassar 75 anos. Caso contrário, é Recusada por Idade.
 score_credito for de pelo menos 600, a proposta é Aprovada com Taxa Padrão.
 5. Se nenhuma das condições acima for atendida, a proposta é Recusada por Risco
 de Crédito."""
+
+renda = float(input("qual e a sua Renda Mensal: "))
+idade = int(input("Qual e a sua idade? "))
+score =  int(input("Qaul e o valor do seu score: "))
+valor_Imovel = float(input("Digite  valor do imovel: "))
+valor_Entrada = float(input("Digite o valor de entrada: "))
+
+if valor_Entrada < valor_Imovel * 0.20:
+    print("Proposta recusado por entrada insulficiente")
+elif idade + 15 > 75 :
+    print("Proposta recusada por Idade")
+elif renda >= 10000 or score >= 800:
+    print("Prospota aprovada com taxa preferencial")
+elif renda >= 5000 and score >= 600:
+    print("Prospota aprovada com taxa Padrao")
+else:
+    print("Proposta recusado por Risoc de Credito")
