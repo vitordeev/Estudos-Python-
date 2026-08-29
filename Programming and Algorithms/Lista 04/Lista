@@ -1,0 +1,34 @@
+Exercício 1 - Escreva um programa que imprima todos os números inteiros de 1 a 15
+utilizando o laço while.
+Exercício 2 - Solicite ao usuário um número inteiro e exiba a tabuada desse número de 1 a
+10 utilizando while.
+Exercício 3 - Crie um programa que mantenha uma senha cadastrada python123. Peça ao
+usuário para digitar a senha e continue solicitando até que a senha digitada seja igual à
+cadastrada.
+Exercício 4 - Exiba todos os números pares de 2 até 20 na tela utilizando o laço while.
+Exercício 5 - Faça um programa que leia números inteiros do usuário até que ele digite um
+número negativo. Ao final, exiba a quantidade de números positivos/nulos digitados.
+Exercício 6 - Desenvolva um programa que leia diversas notas de alunos. A leitura deve
+ser encerrada quando o usuário digitar o valor -1 (sentinela). Ao final, o programa deve
+exibir a quantidade total de notas lidas, a soma total e a média aritmética da turma.
+Exercício 7 - Crie um programa que comece com um saldo bancário de R$ 1.000,00.
+Mostre um menu com as opções:
+Verificar Saldo
+Realizar Saque
+Encerrar
+O programa deve repetir até que a opção 3 seja escolhida. Caso o usuário tente sacar um
+valor superior ao saldo disponível, exiba uma mensagem de erro e não efetue o saque.
+Exercício 8 - Cálculo de Fatorial:
+Solicite um número inteiro não negativo e calcule o seu fatorial () usando o laço while.
+(Lembre-se: e ).
+Exercício 9 - Sequência de Fibonacci limitada:
+Escreva um programa que imprima os primeiros termos da Sequência de Fibonacci (0, 1, 1,
+2, 3, 5, 8, 13, …), onde é informado pelo usuário (assuma N&gt;= 2).
+Exercício 10 - A série de Leibniz permite aproximar o valor de através da seguinte soma
+infinita:
+≈ 4 x ( 1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 +...)
+Crie um programa que calcule a aproximação do valor de . O laço while deve continuar
+adicionando termos à série até que a diferença absoluta entre o termo atual da série (o valor
+
+absoluto da fração adicionada/subtraída) seja menor que . Ao final, exiba o valor de
+aproximado e a quantidade de termos necessários para atingir essa precisão.
