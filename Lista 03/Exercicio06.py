@@ -10,11 +10,22 @@ Considere o preço fixo de R$ 4,00 para o litro do Álcool e R$ 5,50 para a Gaso
 um programa que leia a quantidade de litros e o tipo de combustível ('A' ou 'G') e informe o
 valor total a ser pago.'''
 
-combustivel = input("Cao o combustivel desejado seja Alcool Digite 'A' para gasolina digite ''G : ")
-litros = int(input("Quanto de combustivel oce deseja colcoar? "))
+combustivel = input("Caso o combustivel desejado seja Alcool Digite 'A' para gasolina digite ''G : ")
+litros = int(input("Quanto de combustivel oce deseja colocarr? "))
 A = 4
 G = 5.5
 
-if litros < 20 and A :
-    cal01 = litros * A 
-    cal02 = cal01 
+if combustivel == A :
+    if litros < 20:
+        cal01 = (litros * A)
+        print("O valor final sera de: ", cal01 - (cal01 * 0.03))
+    else:
+     cal01 = (litros * A)
+     print("O valor final sera de :", cal01 - (cal01 * 0.05))
+else :
+    if litros < 20:
+        cal01 = (litros * G)
+        print("O valor final sera de: ", cal01 - (cal01 * 0.04))
+    else:
+     cal01 = (litros * G)
+     print("O valor final sera de :", cal01 - (cal01 * 0.06))
