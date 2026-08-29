@@ -3,4 +3,4 @@
 produto = float(input("Digite o valor do produto: "))
 porcetagem = int(input("Digite o valor da porcetagem: "))
 cal01 =  produto - (produto * porcetagem ) / 100 
-print(cal01)
+print(f"o valor final com o descont aplicado e de {cal01}")
