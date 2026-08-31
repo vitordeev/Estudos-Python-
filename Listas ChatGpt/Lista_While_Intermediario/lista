@@ -1,0 +1,21 @@
+10 exercícios intermediários
+Somador de números
+Peça números até receber 0. No final, mostre a soma de todos os números digitados.
+Positivos e negativos
+Peça números até receber 0. Mostre quantos eram positivos e quantos eram negativos.
+Média das notas
+Peça notas até o usuário digitar -1. Depois, mostre a média das notas válidas.
+Validação de número
+Continue pedindo um número até o usuário informar um valor entre 1 e 10.
+Maior número
+Peça números até receber 0. No final, mostre o maior número informado.
+Menor número
+Peça números até receber 0. No final, mostre o menor número informado.
+Limite de tentativas
+O usuário possui apenas três tentativas para acertar a senha "python123". Mostre se o acesso foi permitido ou bloqueado.
+Contar algarismos
+Peça um número inteiro positivo e informe quantos algarismos ele possui. Não transforme o número em texto.
+Somar os algarismos
+Peça um número inteiro positivo e some seus algarismos.
+Exemplo: 527 resulta em 5 + 2 + 7 = 14.
+Menu simples
